@@ -1,0 +1,484 @@
+
+.main{
+    margin-left: 15px;
+    margin-top: -450px;
+    position:sticky;
+}
+
+.main h1{
+    font-size: 65px;
+}
+
+.main h2{
+    font-size: 30px;
+}
+
+.btn{
+    margin: 25px 80px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 80px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.btn:hover{
+    background-color: gray;
+    color: black;
+}
+
+.menu a:hover{
+    color: black;
+}
+
+#home{
+    height: 100vh;
+}
+
+#img1{
+    height: 100vh;
+    width: 100vw;
+}
+
+#img2{
+    display: none;
+}
+/*/////////////////   About Me ////////////////////*/
+
+.leftside{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.rightside{
+    margin-top: 110px;
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+.profile{
+    width: 450px;
+    vertical-align: middle;
+    border-style: none;
+    height: 600px;
+}
+
+/*/////////////////////Skills/////////////////  */
+
+.skills{
+    height: 90vh;
+    width: 40vw;
+}
+
+.main3{
+    display: flex;
+}
+
+.main3 h1{
+    font-size: 40px;
+    margin: 30px;
+}
+
+.skillcontainer{
+    margin-left: -130px;
+    padding: 12px;
+    margin-top: 120px;
+    font-size: 30px;
+}
+
+.skill{
+    width: 265px;
+    height: 10px;
+    margin-left: 20px;
+    
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    background-color: 2px solid black;
+}
+
+
+
+.hundred{
+    width: 265px;
+    background-color: blue;
+}
+
+.S5{
+    width: 200px;
+    background-color: red;
+}
+
+.fifty{
+    width: 125px;
+    background-color: rgb(62, 203, 62);
+}
+
+.T5{
+    width: 75px;
+    background-color: yellow;
+}
+
+.info2{
+    margin-top: 375px;
+    margin-left: -345px;
+    margin-right: 100px;
+    font-size: 25px;
+}
+
+/* ////////////////////Contact Me////////////////  */
+
+.container2{
+    background-image: url('img10.png'); 
+    background-size: cover;
+     width: 100%;
+    height: 100vh; 
+    background-repeat: no-repeat;
+}
+
+.main4{
+    background-color: black;
+    color: white;
+    height: 80vh;
+    width: 50vh;
+    margin-top: 80px;
+    margin-left: 600px;
+    border-radius: 10px;
+}
+
+form{
+    padding: 20px;
+    /* margin-top: -720px; */
+}
+
+.formdesign{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.formdesign input{
+    width: 40vh;
+    height: 20px;
+}
+
+#message input{
+    height: 90px;
+}
+
+.btn2{
+    margin-top: 10px;
+    margin-left: 120px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.formerror{
+    color: red;
+    font-size: 15px;
+}
+
+
+@media (max-width:1100px) {
+    
+    .main{
+        margin-left: 10px;
+        margin-top: -380px;
+    }
+
+    .main h1{
+        font-size: 40px;
+    }   
+    .main h2{
+        font-size: 20px;
+    }
+
+    #home{
+        height: 100vh;
+    }
+
+    .leftside{
+        margin-top: 50px;
+        margin-left: -40px;
+    }
+    
+    .rightside{
+        margin-top: 110px;
+        margin-left: 30px;
+        font-size: 25px;
+        margin-right: 25px;
+    }
+    
+    .profile{
+        width: 400px;
+        vertical-align: middle;
+        border-style: none;
+        height: 550px;
+    }
+
+    .info2{
+        margin-top: 375px;
+        margin-left: -400px;
+        margin-right: 40px;
+        font-size: 25px;
+    }
+    .main3 h1{
+        font-size: 40px;
+        margin: 40px;
+    }
+    
+    .skillcontainer{
+        margin-left: -130px;
+        padding: 12px;
+        margin-top: 120px;
+        font-size: 30px;
+    }
+
+    .skills{
+        height: 90vh;
+        width: 45vw;
+    }
+
+    .container2{
+        background-image: url('img10.png'); 
+        background-size: cover;
+         width: 100%;
+        height: 100vh; 
+        background-repeat: no-repeat;
+    }
+    
+    .main4{
+        background-color: black;
+        color: white;
+        height: 80vh;
+        width: 50vh;
+        margin-top: 80px;
+        margin-left: 380px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:800px) {
+    .main{
+        margin-left: 360px;
+        margin-top: -520px;
+    }
+
+    .main h1{
+        font-size: 35px;
+        color: deepskyblue;
+    }
+    
+    .main h2{
+        font-size: 25px;
+        color: deepskyblue;
+    }
+    .btn{
+        margin: 15px 40px;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 50px;
+        cursor: pointer;
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    #img1{
+        display: none;
+    }
+
+    #img2{
+        display: inline;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .skills{
+        display: none;
+    }
+
+    .info2{
+        margin-top: 440px;
+        margin-left: -400px;
+        margin-right: 40px;
+        font-size: 30px;
+    }
+
+    .skillcontainer{
+        margin-left: -130px;
+        padding: 12px;
+        margin-top: 160px;
+        font-size: 30px;
+    }
+
+    .main4{
+        background-color: black;
+        color: white;
+        height: 80vh;
+        width: 50vh;
+        margin-top: 80px;
+        margin-left: 180px;
+        border-radius: 10px;
+    }
+
+}
+@media (max-width:768px) {
+    
+    .leftside{
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+    
+    .rightside{
+        margin-top: 40px;
+        margin-left: 30px;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+    .profile{
+        width: 300px;
+        vertical-align: middle;
+        border-style: none;
+        height: 400px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:600px) {
+    
+    .main{
+        margin-left: 285px;
+        margin-top: -540px
+    }
+
+    .main h1{
+        font-size: 30px;
+        color: deepskyblue;
+    }
+    
+    .main h2{
+        font-size: 20px;
+        color: deepskyblue;
+    }
+
+    .btn{
+        margin: 15px 20px;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 50px;
+        cursor: pointer;
+        color: black;
+        background-color: white;
+    }
+
+    .main4{
+        background-color: black;
+        color: white;
+        height: 80vh;
+        width: 50vh;
+        margin-top: 40px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:450px) {
+    
+    .main{
+        margin-left: 230px;
+        margin-top: -540px
+    }
+
+    .main h1{
+        font-size: 30px;
+        color: deepskyblue;
+    }
+    
+    .main h2{
+        font-size: 20px;
+        color: deepskyblue;
+    }
+
+    .btn{
+        margin: 15px 20px;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 50px;
+        cursor: pointer;
+        color: black;
+        background-color: white;
+    }
+
+    .leftside{
+        margin-top: 50px;
+        margin-left: 45px;
+    }
+
+    .info2{
+        margin-top: 320px;
+        margin-left: -360px;
+        margin-right: 40px;
+        font-size: 25px;
+    }
+
+    .skillcontainer{
+        margin-left: -160px;
+        padding: 12px;
+        margin-top: 100px;
+        font-size: 25px;
+    }
+
+    .main3 h1{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .main4{
+    background-color: black;
+    color: white;
+    height: 60vh !important;
+    width: 40vh;
+    margin-top: 80px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+form{
+    padding: 10px;
+    /* margin-top: -720px; */
+}
+
+.formdesign{
+    padding: 0px;
+    font-size: 20px;
+}
+
+.formdesign input{
+    width: 35vh;
+    height: 20px;
+}
+
+#message input{
+    height: 70px;
+}
+
+.btn2{
+    margin-top: 10px;
+    margin-left: 120px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.formerror{
+    color: red;
+    font-size: 15px;
+}
+
+}
