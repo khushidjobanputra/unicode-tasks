@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fira+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.leftside{
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.rightside{
+    margin-top: 115px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 10px;
+    word-spacing: 10px;
+}
+
+.img5{
+    height: 100vh;
+}
+
+#image{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width:500px) {
+    .leftside{
+        margin-left: 85px;
+    }
+    .rightside{
+        margin-left: 70px;
+        margin-top: 20px
+    }
+}
+
+@media (max-width:990px) {
+    .leftside{
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+    .rightside{
+        margin-left: 30px;
+    }
+    .container{
+        margin-top: 55px;
+    }
+}
